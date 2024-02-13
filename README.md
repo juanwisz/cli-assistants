@@ -11,6 +11,8 @@ To install GPT-Assistants CLI, run:
 ```
 pip install gpt-assistants-cli
 ```
+(Not supported for now, use git clone)
+
 Configuration
 Before using the assistants, you need to configure your assistants and set your OpenAI API key. Follow these steps:
 
@@ -18,6 +20,8 @@ Create a configuration file named .gpt-assistants-config.json in your home direc
 Add your assistants and your OpenAI API key to the configuration file. Here's an example:
 
 ```
+
+
 {
     "OPENAI_API_KEY": "your_openai_api_key_here",
     "assistants": {
